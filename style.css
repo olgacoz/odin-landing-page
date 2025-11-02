@@ -120,3 +120,29 @@ button:hover {
   width: 150px;
   text-align: center;
 }
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 100px 0px;
+  align-items: center;
+}
+
+blockquote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  width: 50%;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+blockquote .cite {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}

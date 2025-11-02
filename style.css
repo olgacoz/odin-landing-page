@@ -43,3 +43,43 @@ body {
 .links a:hover {
   background-color: #3f424a;
 }
+
+.hero {
+  display: flex;
+  width: 70%;
+  gap: 40px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+.hero .img {
+  color: #f9faf8;
+  font-size: 18px;
+  background-color: #6e747d;
+  display: flex;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #3882F6;
+  padding: 8px 25px;
+  border-radius: 8px;
+  border-style: none;
+  color: #e5e7eb;
+}
+
+button:hover {
+  background-color: #5593f7;
+}

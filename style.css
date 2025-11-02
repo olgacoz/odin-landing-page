@@ -83,3 +83,40 @@ button {
 button:hover {
   background-color: #5593f7;
 }
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+
+.info .img {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.info .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.img-and-subtext {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+}

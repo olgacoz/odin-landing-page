@@ -168,3 +168,7 @@ blockquote cite {
   border-color: white;
   border-style: solid;
 }
+
+.call-to-action p {
+  color: #e5e7eb;
+}

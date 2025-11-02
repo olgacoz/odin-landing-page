@@ -7,3 +7,39 @@
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  background-color: #1f2937;
+  padding: 10px 0px 100px;
+}
+
+.header {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.links a:hover {
+  background-color: #3f424a;
+}
